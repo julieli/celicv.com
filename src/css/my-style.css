@@ -1,0 +1,64 @@
+.logo-image {
+    height:auto;
+    overflow:hidden;
+}
+.logo-image-small {
+    max-width:50%;
+    height:auto;
+    overflow:hidden;
+    margin-top: 10px;
+}
+.affix-top,.affix{
+    position: static;
+}
+.li-pub {
+    /*list-style-type: none;*/
+    margin-bottom: 10px;
+}
+@media (min-width: 900px) {
+    #sidebar.affix-top {
+        position: static;
+    }
+    #sidebar.affix {
+        position: fixed;
+        top: 10px;
+    }
+}
+body {
+    /*margin-left: 120px;*/
+    padding:0;
+    background-color:#FFFFFF;
+    color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 220%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+li {
+	list-style-type: disc;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 14px;
+}
+#photo {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:10px;
+}
+#banner {
+    background-color:#FFFFFF;
+    margin-top:10px;
+}
