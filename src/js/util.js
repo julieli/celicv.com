@@ -49,6 +49,6 @@ function print_publication(title, author_list, venue, year, pdf, bibtex, slides,
     document.write(venue + ', ' + year + '<br/>');
     if (pdf) document.write('<a href="/papers/' + pdf + '">[PDF]</a> ');
     if (bibtex) document.write('<a href="/bib_files/' + bibtex + '">[BibTeX]</a> ');
-    if (slides) document.write('<a href="/papers/' + slides + '">[Slides]</a> ');
+    if (slides) document.write('<a href="/celicv.github.io/' + slides + '">[Slides]</a> ');
     if (code) document.write('<a href="/code/' + code + '">[Code]</a>');
 }
